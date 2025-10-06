@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-change-s3-bucket-settings.html 
 keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
-summary: システム ページで Amazon S3 システムが利用できる場合は、 NetAppコンソールからバケットの一部のプロパティを直接変更できます。 
+summary: システム ページで Amazon S3 システムが利用できる場合は、 NetApp Consoleからバケットの一部のプロパティを直接変更できます。 
 ---
 = S3バケット設定を変更する
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: システム ページで Amazon S3 システムが利用できる場�
 
 
 [role="lead"]
-システム ページで Amazon S3 システムが利用できる場合は、 NetAppコンソールからバケットの一部のプロパティを直接変更できます。
+システム ページで Amazon S3 システムが利用できる場合は、 NetApp Consoleからバケットの一部のプロパティを直接変更できます。
 
 バケット名、AWS アカウント、リージョン、またはオブジェクトのロック設定は変更できないことに注意してください。
 
@@ -47,7 +47,7 @@ image:screenshot-amazon-s3-versioning.png["バケットのバージョン設定�
 
 タグは、リソースをグループ化してアプリケーション、環境、リージョン、クラウド プロバイダーなどを識別するために使用できるメタデータです。タグはタグ キーとタグ値で構成されます。バケットにタグを追加すると、オブジェクトがバケットに追加されたときにタグがオブジェクトに適用されます。タグやタグ値を変更したり削除したりすることもできます。
 
-NetAppコンソールによって作成された新しいバケットでは、タグはデフォルトで無効になっています。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["タグ付けの詳細については、Amazon S3 ドキュメントをご覧ください。"^] 。
+NetApp Consoleによって作成された新しいバケットでは、タグはデフォルトで無効になっています。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["タグ付けの詳細については、Amazon S3 ドキュメントをご覧ください。"^] 。
 
 image:screenshot-amazon-s3-tags.png["バケットに新しいタグのキー/値のペアを追加する方法を示したスクリーンショット。"]
 
@@ -59,7 +59,7 @@ image:screenshot-amazon-s3-tags.png["バケットに新しいタグのキー/値
 
 サーバー側の暗号化により、Amazon S3 の送信先でデータを暗号化できます。 Amazon S3 は、データをディスクに書き込むときにオブジェクト レベルでデータを暗号化し、アクセスするときに復号化します。今後オブジェクトがバケットに追加されるときに、そのオブジェクトに使用される暗号化設定を変更できます。
 
-NetAppコンソールによって作成された新しいバケットでは、「Amazon S3 管理キー (SSE-S3)」を使用して暗号化がデフォルトで有効になっています。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["サーバー側の暗号化の詳細については、Amazon S3 ドキュメントをご覧ください。"^] 。
+NetApp Consoleによって作成された新しいバケットでは、「Amazon S3 管理キー (SSE-S3)」を使用して暗号化がデフォルトで有効になります。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["サーバー側の暗号化の詳細については、Amazon S3 ドキュメントをご覧ください。"^] 。
 
 あるいは、「AWS Key Management Service キー (SSE-KMS)」を使用して暗号化を有効にすることもできます。顧客が独自に提供したキー (SSE-C) を使用して暗号化することも可能ですが、この機能はコンソール UI からは使用できません。Amazon インターフェイスを使用する必要があります。
 

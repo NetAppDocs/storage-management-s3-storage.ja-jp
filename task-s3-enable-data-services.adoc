@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-s3-enable-data-services.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, 
-summary: NetAppコンソールで S3 バケットを検出したら、バックアップ、階層化、分類、データ同期にNetAppデータ サービスを使用できます。 
+summary: NetApp Consoleで S3 バケットを検出したら、バックアップ、階層化、分類、およびデータ同期にNetAppデータ サービスを使用できます。 
 ---
 = S3バケットでNetAppデータサービスを使用する
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: NetAppコンソールで S3 バケットを検出したら、バック�
 
 
 [role="lead"]
-NetAppコンソールで S3 バケットを検出したら、バックアップ、階層化、分類、データ同期にNetAppデータ サービスを使用できます。
+NetApp Consoleで S3 バケットを検出したら、バックアップ、階層化、分類、およびデータ同期にNetAppデータ サービスを使用できます。
 
 * * NetApp Backup and Recovery* を使用して、オンプレミスのONTAPおよびCloud Volumes ONTAPシステムから S3 オブジェクト ストレージにデータをバックアップします。
 +
@@ -32,7 +32,7 @@ https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-aw
 
 * * NetApp Copy and Sync* を使用して、S3 バケットとの間でデータを同期します。
 +
-開始するには、「システム」ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。  Amazon S3 システムはソースまたはターゲットのいずれかになります。
+開始するには、「システム」ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。Amazon S3 システムはソースまたはターゲットのいずれかになります。
 
 +
 Amazon S3 システムを選択し、[サービス] パネルから [*コピーと同期*] をクリックして、S3 バケットとの間でデータを同期することもできます。
@@ -46,6 +46,6 @@ https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["N
 開始するには、Amazon S3 システムを選択し、[サービス] パネルの [分類] セクションから適切なオプションを選択して、S3 バケットのスキャンを開始します。
 
 +
-https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["NetAppデータ分類サービスの詳細"^] 。
+https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["NetApp Data Classificationサービスの詳細"^] 。
 
 

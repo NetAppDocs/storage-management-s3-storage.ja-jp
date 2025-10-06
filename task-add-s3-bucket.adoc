@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-add-s3-bucket.html 
 keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, netapp console 
-summary: システム ページで Amazon S3 システムが利用可能になると、 NetAppコンソールから直接バケットを追加できます。 
+summary: システム ページで Amazon S3 システムが利用可能になると、 NetApp Consoleから直接バケットを追加できます。 
 ---
 = S3バケットを追加する
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: システム ページで Amazon S3 システムが利用可能にな�
 
 
 [role="lead"]
-Amazon S3 システムが [システム] ページで利用可能になると、 NetAppコンソールから直接バケットを追加できます。
+Amazon S3 システムが [システム] ページで利用可能になると、 NetApp Consoleから直接バケットを追加できます。
 
 .手順
 . [_システム_] ページで、Amazon S3 システムをダブルクリックして [_Amazon S3 バケットの概要_] ページを表示し、[*バケットの追加*] をクリックします。
@@ -24,7 +24,7 @@ _バケットの追加_ ページが表示されます。
 . _バケットの追加_ページで、バケットを作成するために必要な情報を入力し、*適用*をクリックします。
 +
 .. バケットに使用する名前を入力します。
-.. バケットの所有者となる AWS アカウントを選択します。これは、コンソールエージェントが展開されたプライマリアカウント、または https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["NetAppコンソールに追加した別のアカウント"^]。
+.. バケットの所有者となる AWS アカウントを選択します。これは、コンソールエージェントが展開されたプライマリアカウント、または https://docs.netapp.com/us-en/console-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["NetApp Consoleに追加した別のアカウント"^]。
 .. バケットが作成される AWS リージョンを選択します。
 .. オプションで、バケットで S3 オブジェクトロックを有効にして、Write Once Read Many (WORM) モデルを使用してオブジェクトを保存できます。オブジェクト ロックを使用する予定の場合は、バケットの作成時に有効にする必要があります。オブジェクト ロックを有効にすると、バージョン管理も有効になります。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Amazon S3 ドキュメントからオブジェクトロックの詳細をご覧ください"^] 。
 +
