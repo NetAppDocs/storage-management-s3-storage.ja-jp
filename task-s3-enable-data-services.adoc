@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task-s3-enable-data-services.html 
+keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system, 
+summary: NetAppコンソールで S3 バケットを検出したら、バックアップ、階層化、分類、データ同期にNetAppデータ サービスを使用できます。 
+---
+= S3バケットでNetAppデータサービスを使用する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールで S3 バケットを検出したら、バックアップ、階層化、分類、データ同期にNetAppデータ サービスを使用できます。
+
+* * NetApp Backup and Recovery* を使用して、オンプレミスのONTAPおよびCloud Volumes ONTAPシステムから S3 オブジェクト ストレージにデータをバックアップします。
++
+開始するには、[システム] ページに移動し、オンプレミスのONTAPまたはCloud Volumes ONTAPシステムを Amazon S3 システムにドラッグ アンド ドロップします。
+
++
+https://docs.netapp.com/us-en/data-services-backup-recovery/concept-ontap-backup-to-cloud.html["ONTAPデータを Amazon S3 ストレージにバックアップする方法の詳細"^] 。
+
+* * NetApp Cloud Tiering* を使用して、オンプレミスのONTAPクラスターから S3 オブジェクト ストレージに非アクティブなデータを階層化します。
++
+開始するには、[システム] ページに移動し、オンプレミスのONTAPシステムを Amazon S3 システムにドラッグ アンド ドロップします。
+
++
+https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-aws.html["ONTAPデータを Amazon S3 ストレージに階層化する方法の詳細"^] 。
+
+* * NetApp Copy and Sync* を使用して、S3 バケットとの間でデータを同期します。
++
+開始するには、「システム」ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。  Amazon S3 システムはソースまたはターゲットのいずれかになります。
+
++
+Amazon S3 システムを選択し、[サービス] パネルから [*コピーと同期*] をクリックして、S3 バケットとの間でデータを同期することもできます。
+
+
+
+https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["NetApp Copy and Syncサービスの詳細"^] 。
+
+* * NetApp Data Classification* を使用して、S3 バケットをスキャンし、個人データや機密データを探します。  NetApp Data Classification は、 NetAppソリューション用に作成されたかどうかに関係なく、アカウント内の任意のバケットをスキャンできます。
++
+開始するには、Amazon S3 システムを選択し、[サービス] パネルの [分類] セクションから適切なオプションを選択して、S3 バケットのスキャンを開始します。
+
++
+https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["NetAppデータ分類サービスの詳細"^] 。
+
+

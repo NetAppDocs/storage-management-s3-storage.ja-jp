@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: task-change-s3-bucket-settings.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: システム ページで Amazon S3 システムが利用できる場合は、 NetAppコンソールからバケットの一部のプロパティを直接変更できます。 
+---
+= S3バケット設定を変更する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+システム ページで Amazon S3 システムが利用できる場合は、 NetAppコンソールからバケットの一部のプロパティを直接変更できます。
+
+バケット名、AWS アカウント、リージョン、またはオブジェクトのロック設定は変更できないことに注意してください。
+
+変更できるバケットのプロパティは次のとおりです。
+
+* バケット内のすべてのオブジェクトに対してバージョン管理が有効か無効か。
+* バケットに追加されるオブジェクトにタグを適用することを選択できます。
+* バケットに追加された新しいオブジェクトが暗号化されているかどうか、および暗号化に使用されるオプション。
+
+
+これらのバケット設定は、クリックすることで直接変更できます。image:button-horizontal-more.gif["3つの点のボタン"]バケツ用。
+
+image:screenshot-edit-amazon-s3-bucket.png["バケットのプロパティを編集するために「マネージャーの詳細」ボタンを選択する方法を示したスクリーンショット。"]
+
+
+
+== バージョン設定の変更
+
+バージョニングを使用すると、バケット内にオブジェクトの複数のバージョンを保持できるため、誤って削除または上書きされたオブジェクトを復元できます。今後オブジェクトがバケットに追加されるときに、そのオブジェクトのバージョン管理設定を変更できます。バージョン設定を変更しても、既存のオブジェクトの値は変更されません。
+
+バケットの作成時にオブジェクト ロックを有効にしない限り、新しいバケットではバージョン管理はデフォルトで無効になっています。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["Amazon S3 ドキュメントからバージョン管理の詳細をご覧ください"^] 。
+
+有効にすると、バージョン管理を一時的または永続的に停止する場合は、「一時停止」状態を選択できます。バージョン管理は一度有効にすると無効にすることはできません。
+
+image:screenshot-amazon-s3-versioning.png["バケットのバージョン設定を変更する方法を示したスクリーンショット。"]
+
+
+
+== バケット内のオブジェクトのタグを追加または変更する
+
+タグは、リソースをグループ化してアプリケーション、環境、リージョン、クラウド プロバイダーなどを識別するために使用できるメタデータです。タグはタグ キーとタグ値で構成されます。バケットにタグを追加すると、オブジェクトがバケットに追加されたときにタグがオブジェクトに適用されます。タグやタグ値を変更したり削除したりすることもできます。
+
+NetAppコンソールによって作成された新しいバケットでは、タグはデフォルトで無効になっています。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["タグ付けの詳細については、Amazon S3 ドキュメントをご覧ください。"^] 。
+
+image:screenshot-amazon-s3-tags.png["バケットに新しいタグのキー/値のペアを追加する方法を示したスクリーンショット。"]
+
+タグを追加したら、[適用] をクリックして変更を保存します。さらにタグを追加する場合は、「*新しいタグを追加*」をクリックします。バケットごとに最大 10 個のタグを追加できます。
+
+
+
+== 暗号化設定を変更する
+
+サーバー側の暗号化により、Amazon S3 の送信先でデータを暗号化できます。 Amazon S3 は、データをディスクに書き込むときにオブジェクト レベルでデータを暗号化し、アクセスするときに復号化します。今後オブジェクトがバケットに追加されるときに、そのオブジェクトに使用される暗号化設定を変更できます。
+
+NetAppコンソールによって作成された新しいバケットでは、「Amazon S3 管理キー (SSE-S3)」を使用して暗号化がデフォルトで有効になっています。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["サーバー側の暗号化の詳細については、Amazon S3 ドキュメントをご覧ください。"^] 。
+
+あるいは、「AWS Key Management Service キー (SSE-KMS)」を使用して暗号化を有効にすることもできます。顧客が独自に提供したキー (SSE-C) を使用して暗号化することも可能ですが、この機能はコンソール UI からは使用できません。Amazon インターフェイスを使用する必要があります。
+
+image:screenshot-amazon-s3-encryption1.png["バケットに使用される暗号化キーの種類を変更する方法を示したスクリーンショット。"]
+
+「AWS Key Management Service キー (SSE-KMS)」を選択した場合は、すでに作成した AWS KMS キーを選択することも、AWS KMS キー ARN (Amazon リソースネーム) を使用することもできます。
+
+image:screenshot-amazon-s3-encryption2.png["バケットの代替暗号化設定を選択する方法を示したスクリーンショット。"]
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["AWS Key Management Service の詳細については、Amazon S3 ドキュメントをご覧ください。"^]そして約 https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["顧客キーとAWSキーの使用"^]。

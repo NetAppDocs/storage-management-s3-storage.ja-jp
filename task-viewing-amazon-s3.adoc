@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-amazon-s3.html 
+keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system 
+summary: AWS にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている AWS アカウントにある Amazon S3 バケットに関する情報を自動的に検出できるようになります。この情報を表示できるように、Amazon S3 システムがシステム ページに追加されます。 
+---
+= Amazon S3 バケットの表示
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+AWS にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている AWS アカウントにある Amazon S3 バケットに関する情報を自動的に検出できるようになります。この情報を表示できるように、Amazon S3 システムがシステム ページに追加されます。
+
+リージョン、アクセス ポリシー、アカウント、合計容量と使用容量など、S3 バケットの詳細を確認できます。これらのバケットは、 NetApp のバックアップとリカバリ、 NetApp の階層化、またはNetApp のコピーと同期操作の宛先として使用できます。さらに、 NetApp Data Classification を使用してこれらのバケットをスキャンすることもできます。
+
+.手順
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-aws.html["コンソールエージェントをインストールする"^]Amazon S3 バケットを表示する AWS アカウントで。
+. NetAppコンソール メニューから、*ストレージ* を選択し、次に *管理* を選択します。
++
+しばらくすると、Amazon S3 システムが自動的に表示されます。
+
+
+
+image:screenshot-amazon-s3-we.png["Amazon S3 システムのスクリーンショット。"]
+
+. S3 ストレージでNetAppコンソール サービスを有効にする場合は、システムをクリックし、右側のペインからアクションを選択します。
++
+link:task-s3-enable-data-services.html["利用可能なNetAppコンソール サービスを確認し、S3 バケットでそれらを使用する方法を学びます。"] 。
+
+. AWS アカウントの S3 バケットの詳細を表示するには、[*S3 システムを入力*] をクリックするか、システムをダブルクリックします。
++
+デフォルトで表示される列に加えて、ページをスクロールしてバケットの追加プロパティ（タグの数、オブジェクト ロックまたはバージョン管理が有効になっているかどうかなど）を表示できます。
+
+
+
+.次の手順
+NetAppコンソールからバケット設定を直接変更するには、image:button-horizontal-more.gif["3つの点のボタン"]バケツ用。link:task-change-s3-bucket-settings.html["詳細はこちら"] 。
+
+*バケットを追加*をクリックすると、新しい S3 バケットを追加できます。link:task-add-s3-bucket.html["詳細はこちら"] 。

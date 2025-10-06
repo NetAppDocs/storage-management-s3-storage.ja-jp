@@ -1,0 +1,11 @@
+= BlueXPから新しいバケットを追加する機能
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+
+
+=== BlueXPから新しいバケットを追加する機能
+
+かなり以前から、 BlueXP Canvas で Amazon S3 バケットを表示する機能は提供されてきました。  BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。 https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.html["新しいAmazon S3バケットを追加する方法を見る"] 。

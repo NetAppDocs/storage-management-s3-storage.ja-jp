@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="doc">BlueXPから新しいバケットを追加する機能</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">新しいAmazon S3バケットを追加する方法を見る</block>
+  <block id="5e7b506ddcb37df2fdbf21f6eaed65d6" category="paragraph">かなり以前から、 BlueXP Canvas で Amazon S3 バケットを表示する機能は提供されてきました。  BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。<block ref="f0047d35a3b71c36a6aefb7ce54c7ec6" category="inline-link-rx"></block> 。</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXPはNetAppコンソールになりました</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetAppコンソールのリリースノート</block>
+  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">変更内容の詳細については、<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> 。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律上の表示</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知から、著作権情報、商標、特許などを確認できます。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp、NetAppのロゴ、NetAppの商標一覧のページに掲載されているマークは、NetApp, Inc.の商標です。その他の会社名と製品名は、それを所有する各社の商標である場合があります。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">現在NetAppが所有する特許の一覧は以下のページから閲覧できます。</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシー ポリシー</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、 NetAppソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が提供されます。</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetAppコンソールに関するお知らせ</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="9b0db63220dcb42c8f014abc9ddfec70" category="summary">システム ページで Amazon S3 システムが利用可能になると、 NetAppコンソールから直接バケットを追加できます。</block>
+  <block id="9fed572004c981252beb21bc105f5af0" category="doc">S3バケットを追加する</block>
+  <block id="4c1be2d8a6d5bddb276995b29b0ba88a" category="paragraph">Amazon S3 システムが [システム] ページで利用可能になると、 NetAppコンソールから直接バケットを追加できます。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
+  <block id="4f304db3b8e0b8131a9f1fcb4d8feaf4" category="list-text">[_システム_] ページで、Amazon S3 システムをダブルクリックして [_Amazon S3 バケットの概要_] ページを表示し、[*バケットの追加*] をクリックします。</block>
+  <block id="7905235e0b9d47c87993bfcf15c3dd50" category="paragraph">_バケットの追加_ ページが表示されます。</block>
+  <block id="aefffbad8b88d1c38a2002080479d936" category="list-text">_バケットの追加_ページで、バケットを作成するために必要な情報を入力し、*適用*をクリックします。</block>
+  <block id="0b70185623faa55e384834695ae8d364" category="list-text">バケットに使用する名前を入力します。</block>
+  <block id="e2048bec1874c7f3b40ac64c7eb61a19" category="inline-link">NetAppコンソールに追加した別のアカウント</block>
+  <block id="39ec797e48cb983c86e5a8a963246bf0" category="list-text">バケットの所有者となる AWS アカウントを選択します。これは、コンソールエージェントが展開されたプライマリアカウント、または<block ref="ef549bd79a83f188875fad2972424979" category="inline-link-rx"></block>。</block>
+  <block id="0122311ed1a57dce15e992365a9457e2" category="list-text">バケットが作成される AWS リージョンを選択します。</block>
+  <block id="949a961e422bda6c898ac6590ce47cb8" category="inline-link">Amazon S3 ドキュメントからオブジェクトロックの詳細をご覧ください</block>
+  <block id="d87ea88e84d5837b06e24d3c7e16b421" category="list-text">オプションで、バケットで S3 オブジェクトロックを有効にして、Write Once Read Many (WORM) モデルを使用してオブジェクトを保存できます。オブジェクト ロックを使用する予定の場合は、バケットの作成時に有効にする必要があります。オブジェクト ロックを有効にすると、バージョン管理も有効になります。<block ref="1399ee2a35dec21bba05889732a3a632" category="inline-link-rx"></block> 。</block>
+  <block id="157d206d0cc91be4095d98f9df679cf4" category="paragraph">バケットが作成されます。</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次の手順</block>
+  <block id="a73444cc5dd6f6171b437eedb6a7d462" category="inline-link-macro">バケット設定の変更について詳しくは</block>
+  <block id="daf6241c571815ccb6a2fba56c3d3d3a" category="paragraph">バケットを最初に追加するときに、バージョン管理、タグ、または暗号化を手動で構成することはできません。バケットを作成した後、バケットのその他のプロパティを構成できます。<block ref="b8a8855fb27be3598054e27761fb286f" category="inline-link-macro-rx"></block> 。</block>
+  <block id="6f4c69d2867f9fbd595ed22e321d538d" category="summary">システム ページで Amazon S3 システムが利用できる場合は、 NetAppコンソールからバケットの一部のプロパティを直接変更できます。</block>
+  <block id="03d1d7c5f3e9143c651013d5a8df19ed" category="doc">S3バケット設定を変更する</block>
+  <block id="98b683df18d829ab5d0c1a0667ef090e" category="paragraph">バケット名、AWS アカウント、リージョン、またはオブジェクトのロック設定は変更できないことに注意してください。</block>
+  <block id="c1e90160a62fa1921449efb18231f40d" category="paragraph">変更できるバケットのプロパティは次のとおりです。</block>
+  <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">バケット内のすべてのオブジェクトに対してバージョン管理が有効か無効か。</block>
+  <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">バケットに追加されるオブジェクトにタグを適用することを選択できます。</block>
+  <block id="7178af2148dd1317957ac72803a11101" category="list-text">バケットに追加された新しいオブジェクトが暗号化されているかどうか、および暗号化に使用されるオプション。</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">3つの点のボタン</block>
+  <block id="eb94a1e4342c20c5c2f3558833688e28" category="paragraph">これらのバケット設定は、クリックすることで直接変更できます。<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block>バケツ用。</block>
+  <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">バケットのプロパティを編集するために「マネージャーの詳細」ボタンを選択する方法を示したスクリーンショット。</block>
+  <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">バージョン設定の変更</block>
+  <block id="bb818b7bb7e952216e5edeed36b98b25" category="paragraph">バージョニングを使用すると、バケット内にオブジェクトの複数のバージョンを保持できるため、誤って削除または上書きされたオブジェクトを復元できます。今後オブジェクトがバケットに追加されるときに、そのオブジェクトのバージョン管理設定を変更できます。バージョン設定を変更しても、既存のオブジェクトの値は変更されません。</block>
+  <block id="753bbae9e70bd29b4b752a888c7f83aa" category="inline-link">Amazon S3 ドキュメントからバージョン管理の詳細をご覧ください</block>
+  <block id="36554e4a71b2bdf575545c86b388817b" category="paragraph">バケットの作成時にオブジェクト ロックを有効にしない限り、新しいバケットではバージョン管理はデフォルトで無効になっています。<block ref="e0ba6451fd1bf2a059fdd9f9e325cee9" category="inline-link-rx"></block> 。</block>
+  <block id="280e8bf189cc090641938d5fb185e08c" category="paragraph">有効にすると、バージョン管理を一時的または永続的に停止する場合は、「一時停止」状態を選択できます。バージョン管理は一度有効にすると無効にすることはできません。</block>
+  <block id="06bf9930fc8459e052599e1b5f0a1a7f" category="inline-image-macro">バケットのバージョン設定を変更する方法を示したスクリーンショット。</block>
+  <block id="41270662bdf0da5996f1a870b9ab5b44" category="paragraph"><block ref="41270662bdf0da5996f1a870b9ab5b44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03b6a6f1e13411d253ae1983fe76fa25" category="section-title">バケット内のオブジェクトのタグを追加または変更する</block>
+  <block id="e3463088bdb53d30f897b3ff783db6e9" category="paragraph">タグは、リソースをグループ化してアプリケーション、環境、リージョン、クラウド プロバイダーなどを識別するために使用できるメタデータです。タグはタグ キーとタグ値で構成されます。バケットにタグを追加すると、オブジェクトがバケットに追加されたときにタグがオブジェクトに適用されます。タグやタグ値を変更したり削除したりすることもできます。</block>
+  <block id="07472cd51c11ae72b9be3780b88a4452" category="inline-link">タグ付けの詳細については、Amazon S3 ドキュメントをご覧ください。</block>
+  <block id="2792aa377cf75383da294983a1c06964" category="paragraph">NetAppコンソールによって作成された新しいバケットでは、タグはデフォルトで無効になっています。<block ref="4051f5e277970bf30a28585f8f548269" category="inline-link-rx"></block> 。</block>
+  <block id="b1a649b71c6a44f55f012f92ab2c0f41" category="inline-image-macro">バケットに新しいタグのキー/値のペアを追加する方法を示したスクリーンショット。</block>
+  <block id="85aee05e1be511f705baeadd5c969d87" category="paragraph"><block ref="85aee05e1be511f705baeadd5c969d87" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="200e9bd07e779ca538757ee7a91c07d5" category="paragraph">タグを追加したら、[適用] をクリックして変更を保存します。さらにタグを追加する場合は、「*新しいタグを追加*」をクリックします。バケットごとに最大 10 個のタグを追加できます。</block>
+  <block id="26d7220e95a948de8f8bee2eb2c05ec8" category="section-title">暗号化設定を変更する</block>
+  <block id="a11df6361d05660cc0ba1f6c0558de49" category="paragraph">サーバー側の暗号化により、Amazon S3 の送信先でデータを暗号化できます。 Amazon S3 は、データをディスクに書き込むときにオブジェクト レベルでデータを暗号化し、アクセスするときに復号化します。今後オブジェクトがバケットに追加されるときに、そのオブジェクトに使用される暗号化設定を変更できます。</block>
+  <block id="2c147b9d28e184c5c63a643164663ed6" category="inline-link">サーバー側の暗号化の詳細については、Amazon S3 ドキュメントをご覧ください。</block>
+  <block id="8fd60e40ed7d4aa8f420186855819fc3" category="paragraph">NetAppコンソールによって作成された新しいバケットでは、「Amazon S3 管理キー (SSE-S3)」を使用して暗号化がデフォルトで有効になっています。<block ref="af46c8e128e791b9a73e046d29dfa446" category="inline-link-rx"></block> 。</block>
+  <block id="5bf067fcbdb3a0c0eead1be2fc6f3f55" category="paragraph">あるいは、「AWS Key Management Service キー (SSE-KMS)」を使用して暗号化を有効にすることもできます。顧客が独自に提供したキー (SSE-C) を使用して暗号化することも可能ですが、この機能はコンソール UI からは使用できません。Amazon インターフェイスを使用する必要があります。</block>
+  <block id="62391a98e2571a2594662b67b2d076c0" category="inline-image-macro">バケットに使用される暗号化キーの種類を変更する方法を示したスクリーンショット。</block>
+  <block id="9aaf4516b7333dbc25618cc5541d6c28" category="paragraph"><block ref="9aaf4516b7333dbc25618cc5541d6c28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f76b7a6398238187f9ab7139f99efa9e" category="paragraph">「AWS Key Management Service キー (SSE-KMS)」を選択した場合は、すでに作成した AWS KMS キーを選択することも、AWS KMS キー ARN (Amazon リソースネーム) を使用することもできます。</block>
+  <block id="4913270dff142c18b7deff3e020455bb" category="inline-image-macro">バケットの代替暗号化設定を選択する方法を示したスクリーンショット。</block>
+  <block id="bf0f1d13b25a835c25ca6497481b616a" category="paragraph"><block ref="bf0f1d13b25a835c25ca6497481b616a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9565d6f3c6daab6a85ad88d83d6afaa3" category="inline-link">AWS Key Management Service の詳細については、Amazon S3 ドキュメントをご覧ください。</block>
+  <block id="6b9ad32bca511ce2ad2c097b7d9a4a78" category="inline-link">顧客キーとAWSキーの使用</block>
+  <block id="2a99f2c69d7ca6830beafd559188a1d0" category="paragraph"><block ref="6680152fb638c9052ac94d98bd762821" category="inline-link-rx"></block>そして約<block ref="ff2983fb7d6b017ffe909b1c26efe536" category="inline-link-rx"></block>。</block>
+  <block id="e48486c33f71dc8e173adb6c6fc66485" category="summary">NetApp は、さまざまな方法でNetAppコンソールのサポートを提供します。ナレッジベース (KB) 記事やコミュニティ フォーラムなど、広範な無料のセルフサポート オプションが 24 時間 365 日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを受ける</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">NetAppコンソールとそのストレージ ソリューションおよびデータ サービスに固有のテクニカル サポートを受けるには、サポート登録が必要です。Cloud Volumes ONTAPシステムの主要なワークフローを有効にするには、サポート登録も必要です。</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">サポートに登録しても、クラウド プロバイダー ファイル サービスに対するNetAppサポートは有効になりません。クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品のドキュメントの「ヘルプの取得」を参照してください。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx for ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にするには、次の 2 つの登録形式があります。</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">NetAppコンソール アカウントのシリアル番号 (コンソールの [サポート リソース] ページにある 20 桁の 960xxxxxxxxx シリアル番号) を登録します。</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">これは、コンソール内のすべてのサービスに対する単一のサポート サブスクリプション ID として機能します。各コンソール アカウントを登録する必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウド プロバイダーのマーケットプレイスで、サブスクリプションに関連付けられたCloud Volumes ONTAPシリアル番号を登録します (これらは 20 桁の 909201xxxxxxxx シリアル番号です)。</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">これらのシリアル番号は一般に _PAYGO シリアル番号_ と呼ばれ、 Cloud Volumes ONTAP の導入時にNetAppコンソールによって生成されます。</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">両方のタイプのシリアル番号を登録すると、サポート チケットの開設やケースの自動生成などの機能が有効になります。登録は、以下の説明に従ってNetAppサポート サイト (NSS) アカウントをコンソールに追加することで完了します。</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">NetAppサポートのためにNetAppコンソールを登録する</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">サポートに登録し、サポート資格を有効にするには、 NetAppコンソール アカウントの 1 人のユーザーがNetAppサポート サイト アカウントをコンソール ログインに関連付ける必要があります。NetAppサポートに登録する方法は、 NetAppサポート サイト (NSS) アカウントをすでにお持ちかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存顧客</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">NSS アカウントをお持ちのNetApp のお客様の場合は、コンソールからサポートに登録するだけです。</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">*管理* &gt; *資格情報*を選択します。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">*ユーザー資格情報*を選択します。</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">*NSS 資格情報の追加* を選択し、 NetAppサポート サイト (NSS) の認証プロンプトに従います。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが成功したことを確認するには、[ヘルプ] アイコンを選択し、[サポート] を選択します。</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*リソース* ページには、コンソール アカウントがサポートに登録されていることが表示されます。</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">他のコンソール ユーザーは、ログインにNetAppサポート サイト アカウントを関連づけていない場合、同じサポート登録ステータスを表示しないことに注意してください。ただし、これはあなたのアカウントがサポートに登録されていないことを意味するものではありません。組織内の 1 人のユーザーがこれらの手順を実行していれば、アカウントは登録済みになります。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">既存の顧客だがNSSアカウントがない</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">既存のライセンスとシリアル番号を持ち、NSS アカウントを持っていない場合、既存のNetApp顧客は、NSS アカウントを作成し、それをコンソール ログインに関連付ける必要があります。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetAppサポートサイト ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">NetAppサポートサイトのアカウントを作成するには、<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザー レベル (通常は * NetApp顧客/エンド ユーザー*) を選択してください。</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">上記で使用したコンソール アカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">以下の手順を実行して、新しいNSSアカウントをコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetAppの新着情報</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetAppを初めて使用し、NSS アカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">コンソールの右上にあるヘルプ アイコンを選択し、*サポート* を選択します。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページからアカウント ID シリアル番号を見つけます。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetAppのサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">移動先<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>*私は登録済みのNetApp顧客ではありません* を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールド（赤いアスタリスクが付いているフィールド）に入力します。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">*製品ライン* フィールドで、*Cloud Manager* を選択し、該当する請求プロバイダーを選択します。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順 2 からアカウントのシリアル番号をコピーし、セキュリティ チェックを完了して、NetApp のグローバル データ プライバシー ポリシーを読んだことを確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全な取引を完了するために、指定されたメールボックスに電子メールが直ちに送信されます。検証メールが数分以内に届かない場合は、必ずスパム フォルダーを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">メール内からアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認すると、リクエストがNetAppに送信され、 NetAppサポート サイトのアカウントを作成することが推奨されます。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">上記で使用したアカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより処理速度が向上します。</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">終了後の操作</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセス中に、 NetAppから連絡が来るはずです。これは、新規ユーザー向けの 1 回限りのオンボーディング演習です。</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">NetAppサポートサイトのアカウントを取得したら、以下の手順を実行して、アカウントをコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートに NSS 認証情報を関連付ける</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Cloud Volumes ONTAPの次の主要なワークフローを有効にするには、 NetAppサポート サイトの認証情報をコンソール アカウントに関連付ける必要があります。</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムをサポート対象として登録する</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">システムのサポートを有効にし、 NetAppテクニカル サポート リソースにアクセスするには、NSS アカウントを提供する必要があります。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL（個人ライセンス使用）時にCloud Volumes ONTAP を導入する</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">コンソールがライセンス キーをアップロードし、購入した期間のサブスクリプションを有効にするには、NSS アカウントを提供する必要があります。これには、期間更新の自動更新が含まれます。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAPソフトウェアを最新リリースにアップグレードする</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">NSS 資格情報をNetAppコンソール アカウントに関連付けることは、コンソール ユーザー ログインに関連付けられている NSS アカウントとは異なります。</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">これらの NSS 資格情報は、特定のコンソール アカウント ID に関連付けられています。コンソール組織に属するユーザーは、*サポート &gt; NSS 管理* からこれらの資格情報にアクセスできます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">顧客レベルのアカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できます。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナー アカウントまたは再販業者アカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できますが、顧客レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">*NSS管理 &gt; NSSアカウントの追加*を選択します。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">プロンプトが表示されたら、[続行] を選択して、Microsoft ログイン ページにリダイレクトします。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp は、サポートとライセンスに固有の認証サービスの ID プロバイダーとして Microsoft Entra ID を使用します。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログイン ページで、 NetAppサポート サイトに登録した電子メール アドレスとパスワードを入力して、認証プロセスを実行します。</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">これらのアクションにより、コンソールはライセンスのダウンロード、ソフトウェア アップグレードの検証、将来のサポート登録などに NSS アカウントを使用できるようになります。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS アカウントは顧客レベルのアカウントである必要があります (ゲスト アカウントや一時アカウントではありません)。顧客レベルの NSS アカウントを複数持つことができます。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">パートナー レベルのアカウントの場合、NSS アカウントは 1 つだけ存在できます。顧客レベルの NSS アカウントを追加しようとしたときにパートナー レベルのアカウントが存在する場合は、次のエラー メッセージが表示されます。</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「異なるタイプの NSS ユーザーがすでに存在するため、このアカウントでは NSS 顧客タイプは許可されません。」</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存の顧客レベルの NSS アカウントがあり、パートナー レベルのアカウントを追加しようとする場合も同様です。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインが成功すると、 NetApp はNSS ユーザー名を保存します。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平の点のアイコン</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">これは、メールにマッピングされるシステム生成の ID です。*NSS管理*ページでは、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証トークンを更新する必要がある場合は、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするよう求められます。これらのアカウントのトークンは 90 日後に期限切れになることに注意してください。これを知らせる通知が投稿されます。</block>
+  <block id="d443b499b08143f5dc15517928770216" category="summary">NetAppコンソールで S3 バケットを検出したら、バックアップ、階層化、分類、データ同期にNetAppデータ サービスを使用できます。</block>
+  <block id="49b9d9b89078e5e4f47991c877526750" category="doc">S3バケットでNetAppデータサービスを使用する</block>
+  <block id="fbc9165bab5ddadb1c51f3b8583879a2" category="list-text">* NetApp Backup and Recovery* を使用して、オンプレミスのONTAPおよびCloud Volumes ONTAPシステムから S3 オブジェクト ストレージにデータをバックアップします。</block>
+  <block id="27bde24ca56d18f8b44254361b5dfacf" category="paragraph">開始するには、[システム] ページに移動し、オンプレミスのONTAPまたはCloud Volumes ONTAPシステムを Amazon S3 システムにドラッグ アンド ドロップします。</block>
+  <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">ONTAPデータを Amazon S3 ストレージにバックアップする方法の詳細</block>
+  <block id="36d69a6474503dc12eb03d9c3d0ae1da" category="paragraph"><block ref="9f57c6763aabcc8b098d417d73deda77" category="inline-link-rx"></block> 。</block>
+  <block id="95dc1a377250c16a45ecb11cbfdf3135" category="list-text">* NetApp Cloud Tiering* を使用して、オンプレミスのONTAPクラスターから S3 オブジェクト ストレージに非アクティブなデータを階層化します。</block>
+  <block id="610b3d16936c0360549876cfc01a37ab" category="paragraph">開始するには、[システム] ページに移動し、オンプレミスのONTAPシステムを Amazon S3 システムにドラッグ アンド ドロップします。</block>
+  <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">ONTAPデータを Amazon S3 ストレージに階層化する方法の詳細</block>
+  <block id="294e46c1260f34e879a6aeff1996c09b" category="paragraph"><block ref="9a9a7aea1877db3b9eac1dc6a8ee9ad0" category="inline-link-rx"></block> 。</block>
+  <block id="bf30e1dc167938e97c2591cd3c510944" category="list-text">* NetApp Copy and Sync* を使用して、S3 バケットとの間でデータを同期します。</block>
+  <block id="b742aa9d50ddb0f84621b9f8493784db" category="paragraph">開始するには、「システム」ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。  Amazon S3 システムはソースまたはターゲットのいずれかになります。</block>
+  <block id="2829616d2eba8bf258b08581862de08f" category="paragraph">Amazon S3 システムを選択し、[サービス] パネルから [*コピーと同期*] をクリックして、S3 バケットとの間でデータを同期することもできます。</block>
+  <block id="d676431aede5e4a521d5c713cc067177" category="inline-link">NetApp Copy and Syncサービスの詳細</block>
+  <block id="bedb81eb7ff8425f71336d8931e92105" category="paragraph"><block ref="60fd24ac1125a4c23b2db8c1cc3ed980" category="inline-link-rx"></block> 。</block>
+  <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">* NetApp Data Classification* を使用して、S3 バケットをスキャンし、個人データや機密データを探します。  NetApp Data Classification は、 NetAppソリューション用に作成されたかどうかに関係なく、アカウント内の任意のバケットをスキャンできます。</block>
+  <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">開始するには、Amazon S3 システムを選択し、[サービス] パネルの [分類] セクションから適切なオプションを選択して、S3 バケットのスキャンを開始します。</block>
+  <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">NetAppデータ分類サービスの詳細</block>
+  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> 。</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントをNetAppコンソールに追加し、サポートに登録する必要があります。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録する</block>
+  <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">AWS にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている AWS アカウントにある Amazon S3 バケットに関する情報を自動的に検出できるようになります。この情報を表示できるように、Amazon S3 システムがシステム ページに追加されます。</block>
+  <block id="f7099ec977551c0bfc4264472c0bf927" category="doc">Amazon S3 バケットの表示</block>
+  <block id="268e60750684585da8535ee06736af33" category="paragraph">リージョン、アクセス ポリシー、アカウント、合計容量と使用容量など、S3 バケットの詳細を確認できます。これらのバケットは、 NetApp のバックアップとリカバリ、 NetApp の階層化、またはNetApp のコピーと同期操作の宛先として使用できます。さらに、 NetApp Data Classification を使用してこれらのバケットをスキャンすることもできます。</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">コンソールエージェントをインストールする</block>
+  <block id="cbcef342dab0c01dc40b1fc286cacfef" category="list-text"><block ref="6a49923340dfe8e4d53dfc1a568ab789" category="inline-link-rx"></block>Amazon S3 バケットを表示する AWS アカウントで。</block>
+  <block id="68ab6a6d7a40667d53edebc13dbf3f3a" category="list-text">NetAppコンソール メニューから、*ストレージ* を選択し、次に *管理* を選択します。</block>
+  <block id="8713a34f45c886b92e055232072e5c17" category="paragraph">しばらくすると、Amazon S3 システムが自動的に表示されます。</block>
+  <block id="86684b0bdfa40b5fc2b9ad768f823210" category="inline-image-macro">Amazon S3 システムのスクリーンショット。</block>
+  <block id="c03a324b4d24c8d9a163e16b33bf776d" category="paragraph"><block ref="c03a324b4d24c8d9a163e16b33bf776d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14bee838adfc88a7c71442c5aeac5e3b" category="list-text">S3 ストレージでNetAppコンソール サービスを有効にする場合は、システムをクリックし、右側のペインからアクションを選択します。</block>
+  <block id="9402251e996a1a9ec8966233a1a4e5e9" category="inline-link-macro">利用可能なNetAppコンソール サービスを確認し、S3 バケットでそれらを使用する方法を学びます。</block>
+  <block id="36725292108ca48226f28222e36bb925" category="paragraph"><block ref="c9d23c2637950d5f1b1df895263c4040" category="inline-link-macro-rx"></block> 。</block>
+  <block id="2046f824b24cc2706fc7ed47a86ebafc" category="list-text">AWS アカウントの S3 バケットの詳細を表示するには、[*S3 システムを入力*] をクリックするか、システムをダブルクリックします。</block>
+  <block id="7462056cb7ed96e8e2bfa335d78d9644" category="paragraph">デフォルトで表示される列に加えて、ページをスクロールしてバケットの追加プロパティ（タグの数、オブジェクト ロックまたはバージョン管理が有効になっているかどうかなど）を表示できます。</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">詳細はこちら</block>
+  <block id="1ae823594c3c722bfffe0b458c0cc8c7" category="paragraph">NetAppコンソールからバケット設定を直接変更するには、<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block>バケツ用。<block ref="fb2338c21d7a6262957fb98c8ca54de1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="09939f5de1c156803c6295670449beb2" category="paragraph">*バケットを追加*をクリックすると、新しい S3 バケットを追加できます。<block ref="24acb8e540fa67d1a53c15525bc66748" category="inline-link-macro-rx"></block> 。</block>
+  <block id="50eccdd6e3280909836f3a550b5b1046" category="summary">NetAppコンソールの Amazon S3 ストレージの新機能について説明します。</block>
+  <block id="804352a77a25abfa823112d44e464706" category="doc">NetAppコンソールの Amazon S3 ストレージの新機能</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023年3月5日</block>
+  <block id="1aada25bde50e6f700bae8f01a671280" category="sidebar">NetAppコンソールで Amazon S3 ストレージの使用を開始します。</block>
+  <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="sidebar">Amazon S3 ストレージのドキュメント</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">始めましょう</block>
+  <block id="e11597621f115e17031710501eefedbc" category="sidebar">Amazon S3 バケットを表示する</block>
+  <block id="fd1c68085eeae378471bac9bc817b052" category="sidebar">S3バケットを管理する</block>
+  <block id="9734d11f1da890ec7434857fd054fb47" category="sidebar">バケット設定を変更する</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">詳細情報</block>
+  <block id="59be372448aee79086ab0c21e2e7e595" category="sidebar">NetAppコンソール外での管理に関する Amazon S3 ドキュメント</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetAppコンソール</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetAppデータサービス</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
+  <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3 ストレージのドキュメント</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリース ノート</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+</blocks>

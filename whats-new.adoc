@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: NetAppコンソールの Amazon S3 ストレージの新機能について説明します。 
+---
+= NetAppコンソールの Amazon S3 ストレージの新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールの Amazon S3 ストレージの新機能について説明します。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+== 2023年3月5日
+
+
+
+=== BlueXPから新しいバケットを追加する機能
+
+かなり以前から、 BlueXP Canvas で Amazon S3 バケットを表示する機能は提供されてきました。  BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。 https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.html["新しいAmazon S3バケットを追加する方法を見る"] 。

@@ -1,0 +1,39 @@
+---
+settings:
+  name: Amazon S3 storage
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Amazon S3 ストレージのドキュメント
+    url: "/index.html"
+  - title: リリース ノート
+    url: "/whats-new.html"
+  - title: 始めましょう
+    entries:
+    - title: Amazon S3 バケットを表示する
+      url: "/task-viewing-amazon-s3.html"
+  - title: S3バケットを管理する
+    entries:
+    - title: S3バケットを追加する
+      url: "/task-add-s3-bucket.html"
+    - title: S3バケット設定を変更する
+      url: "/task-change-s3-bucket-settings.html"
+    - title: S3バケットでNetAppデータサービスを使用する
+      url: "/task-s3-enable-data-services.html"
+  - title: 知識とサポート
+    entries:
+    - title: サポートに登録する
+      url: "/task-support-registration.html"
+    - title: ヘルプを受ける
+      url: "/task-get-help.html"
+  - title: 法律上の表示
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family

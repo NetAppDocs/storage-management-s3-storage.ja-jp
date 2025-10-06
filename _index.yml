@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: Amazon S3 ストレージのドキュメント
+  summary: NetAppコンソールで Amazon S3 ストレージの使用を開始します。
+  keywords: amazon s3, storage, bluexp, netapp console
+  lead: NetAppコンソールで Amazon S3 ストレージの使用を開始します。
+  tiles:
+  - title: 始めましょう
+    links:
+    - title: Amazon S3 バケットを表示する
+      url: task-viewing-amazon-s3.html
+  - title: S3バケットを管理する
+    links:
+    - title: S3バケットを追加する
+      url: task-add-s3-bucket.html
+    - title: バケット設定を変更する
+      url: task-change-s3-bucket-settings.html
+    - title: S3バケットでNetAppデータサービスを使用する
+      url: task-s3-enable-data-services.html
+  - title: 詳細情報
+    links:
+    - title: NetAppコンソール外での管理に関する Amazon S3 ドキュメント
+      url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
+  - title: ブログとコミュニティ
+    links:
+    - title: NetAppコンソール
+      url: https://www.netapp.com/console
+    - title: NetAppデータサービス
+      url: https://www.netapp.com/data-services/
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/
