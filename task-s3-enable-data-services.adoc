@@ -46,6 +46,6 @@ https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["N
 開始するには、Amazon S3 システムを選択し、[サービス] パネルの [分類] セクションから適切なオプションを選択して、S3 バケットのスキャンを開始します。
 
 +
-https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["NetApp Data Classificationサービスの詳細"^] 。
+https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-s3.html["NetApp Data Classificationサービスの詳細"^]。
 
 

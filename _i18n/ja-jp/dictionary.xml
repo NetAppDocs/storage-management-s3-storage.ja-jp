@@ -180,7 +180,6 @@
   <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">* NetApp Data Classification* を使用して、S3 バケットをスキャンし、個人データや機密データを探します。  NetApp Data Classification は、 NetAppソリューション用に作成されたかどうかに関係なく、アカウント内の任意のバケットをスキャンできます。</block>
   <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">開始するには、Amazon S3 システムを選択し、[サービス] パネルの [分類] セクションから適切なオプションを選択して、S3 バケットのスキャンを開始します。</block>
   <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">NetApp Data Classificationサービスの詳細</block>
-  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> 。</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントをNetApp Consoleに追加し、サポートに登録する必要があります。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録する</block>
   <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">AWS にコンソール エージェントをインストールすると、 NetApp Consoleは、コンソール エージェントがインストールされている AWS アカウントにある Amazon S3 バケットに関する情報を自動的に検出できるようになります。この情報を表示できるように、Amazon S3 システムがシステム ページに追加されます。</block>
@@ -219,4 +218,5 @@
   <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3 ストレージのドキュメント</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリース ノート</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+  <block id="38e4a6ea124be3ae85f0c5c913bd80a7" category="paragraph"><block ref="b2391610bf85b5dbfe9880f4b5f5c77d" category="inline-link-rx"></block>。</block>
 </blocks>
